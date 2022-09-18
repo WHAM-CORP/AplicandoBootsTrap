@@ -1,0 +1,181 @@
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor h1 {
+    font-family: 'Rock Salt', cursive;
+    color: tomato;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav-item a {
+    font-size: 1rem;
+    color: black;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+.nav-item .activo {
+    color: white;
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.carousel-caption h5 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.img_column img {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    border: 5px solid brown;
+}
+
+.about h2 {
+    text-align: center;
+
+}
+
+.about p {
+    line-height: 40px;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+.about a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+}
+.foot a{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.boton a{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    text-decoration: none;
+    color:white;
+    background-color: tomato;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* --------------------estilos Equipo--------------------*/
+.img_equipo{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.ourteam{
+    margin: auto;
+    text-align: center;
+}
+.ourteam div{
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.desc_equipo{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+@media screen and (min-width:768px) {
+    .contenedor h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav-item a {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .img_column img {
+        height: 300px;
+        width: 450px;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+
+    .carousel-item img {
+        height: 600px;
+    }
+
+    .img_column img {
+        height: 300px;
+        width: 450px;
+    }
+
+    .about p {
+        font-size: 1.1rem;
+    }
+    .carousel-caption h5{
+        font-size: 1.4rem;
+    }
+
+}
+@media screen and (min-width:992px) {
+    .contenedor h1{
+        font-size: 3rem;
+    }
+    .nav-item a{
+        font-size: 1.3rem;
+    }
+    .img_equipo{
+        border-radius: 50%;
+        height: 350px;
+        border: 3px solid brown;
+    }
+
+}
+@media screen and (min-width:1200px){
+    .img_equipo{
+        height: 300px;
+        width: 300px;
+    }
+
+} 
+@media screen and (min-width:1400px){
+    .img_equipo{
+        height: 300px;
+        width: 300px;
+    }
+
+} 
