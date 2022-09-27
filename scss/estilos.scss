@@ -1,0 +1,152 @@
+.contenedor {
+    width: 80%;
+    margin: auto;
+
+    h1 {
+        font-family: 'Rock Salt', cursive;
+        color: tomato;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 2.2rem;
+
+    }
+}
+
+.navit {
+    a {
+        font-size: 1.2rem;
+        color: black;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    .activo1 {
+        color: white;
+    }
+
+}
+
+.carrusel {
+    img {
+        height: 500px;
+        width: 70%;
+        object-fit: cover;
+    }
+}
+
+.carr {
+    h5 {
+        color: white;
+        font-size: 1.2rem;
+    }
+}
+
+.img_column {
+    img {
+        height: 300px;
+        width: 350px;
+        object-fit: cover;
+        border: 5px solid brown;
+    }
+}
+
+.about {
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        line-height: 40px;
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    a {
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 200px;
+        padding: 10px;
+        background-color: tomato;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.foot {
+    a {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.boton {
+    a {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+        height: auto;
+        text-decoration: none;
+        color: white;
+        background-color: tomato;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.letra {
+    font-size: 1.5rem;
+    font-family: 'Delius', cursive;
+    color: blue;
+}
+
+/* --------------------estilos Equipo--------------------*/
+.img_equipo {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.ourteam {
+    margin: auto;
+    text-align: center;
+
+    div {
+        padding: 10px;
+        border: 1px solid black;
+        margin-bottom: 10px;
+
+        .desc_equipo {
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+}
+
+/*------------------------estilos galeria-----------------------------------*/
+.newgale_box {
+    img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border: 3px solid brown;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+.comentt{
+    display: flex;
+    margin: auto;
+    .imga{
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
