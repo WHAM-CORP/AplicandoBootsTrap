@@ -1,0 +1,13 @@
+AGREGUE ESTAS KEY WORDS
+-titulo
+-botones
+-img_equipo
+
+keywords:
+se agrego key words para todas las paginas
+
+titulo:
+se le cambio a cada pagina los titulos y se modifico  poniendo el nombre y la pagina.
+
+descripcion:
+se agrego metas para la descripcion por cada pagina de manera personalizada.

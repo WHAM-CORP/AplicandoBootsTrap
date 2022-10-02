@@ -1,14 +1,17 @@
+@mixin titulo {
+    font-family: 'Rock Salt', cursive;
+    color: tomato;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2.2rem;
+}
+
 .contenedor {
     width: 80%;
     margin: auto;
 
     h1 {
-        font-family: 'Rock Salt', cursive;
-        color: tomato;
-        text-align: center;
-        margin-top: 10px;
-        font-size: 2.2rem;
-
+        @include titulo;
     }
 }
 
@@ -82,19 +85,22 @@
         margin: auto;
     }
 }
+@mixin botones{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .boton {
     a {
-        display: block;
-        text-align: center;
-        margin: auto;
-        width: 200px;
-        height: auto;
-        text-decoration: none;
-        color: white;
-        background-color: tomato;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        @include botones;
     }
 }
 
@@ -105,11 +111,14 @@
 }
 
 /* --------------------estilos Equipo--------------------*/
-.img_equipo {
-    height: 250px;
+@mixin imgequipo{
+       height: 250px;
     width: 300px;
     object-fit: cover;
     margin: 10px;
+}
+.img_equipo {
+  @include imgequipo;
 }
 
 .ourteam {
@@ -141,10 +150,12 @@
         }
     }
 }
-.comentt{
+
+.comentt {
     display: flex;
     margin: auto;
-    .imga{
+
+    .imga {
         width: 100%;
         object-fit: cover;
     }
